@@ -5,4 +5,14 @@ A certifying implementation of Tarjan’s algorithm for computing strongly conne
 ## Description
 
 This project implements Tarjan’s algorithm to identify strongly connected components in a graph.  
-The implementation also includes a certificate validation mechanism to verify the correctness of the computed components.
+In addition to computing SCCs, the implementation generates a certificate that can be used to validate the correctness of the result.
+
+The certification mechanism verifies that the computed components satisfy the properties of strongly connected components.
+
+## Features
+
+- Depth-first search based graph traversal
+- Certificate generation for computed components
+- Certificate validation mechanism
+
+## Technologies
